@@ -383,7 +383,7 @@ export default function Product() {
               {/* ✅ JUDGE.ME: Star Rating below title - FIXED: Added template prop */}
               <div className="my-3">
                 <JudgemePreviewBadge id={product.id} template="preview-badge" />
-              </div>;
+              </div>
               
               {/* ✅ NEW: Article Number Display - Below Star Rating */}
               {selectedVariant?.sku && (

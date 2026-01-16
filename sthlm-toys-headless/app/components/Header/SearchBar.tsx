@@ -42,7 +42,7 @@ export function SearchBar({isMobile = false, className = ''}: SearchBarProps) {
             }}
           />
           <button
-            className="bg-yellow-400 hover:bg-yellow-500 font-semibold text-black flex items-center justify-center px-6 transition-colors"
+            className="bg-yellow-400 hover:bg-yellow-500 font-semibold text-black flex items-center justify-center px-6 transition-colors cursor-pointer"
             type="submit"
             aria-label="Sök"
             style={{border: 'none', outline: 'none'}}

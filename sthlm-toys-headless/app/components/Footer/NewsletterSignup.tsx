@@ -94,7 +94,7 @@ export function NewsletterSignup({isMobile = false}: NewsletterSignupProps) {
         <button
           type="submit"
           disabled={status === 'submitting'}
-          className="bg-white text-blue-600 font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition-colors mt-3 disabled:opacity-50 disabled:cursor-not-allowed"
+          className="bg-white text-blue-600 font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition-colors mt-3 disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
           style={{
             fontSize: '16px',
             fontWeight: '600',

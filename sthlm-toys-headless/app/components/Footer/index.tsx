@@ -80,7 +80,7 @@ export function Footer({
 
           {/* Bottom section */}
           <div className="border-t border-blue-400 mt-8 pt-6">
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center gap-1">
               {/* Logo and Social Media */}
               <div className="flex items-center gap-8">
                 <FooterLogo shop={header.shop as any} />
