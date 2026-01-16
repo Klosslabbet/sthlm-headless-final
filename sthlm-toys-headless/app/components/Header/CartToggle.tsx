@@ -22,7 +22,7 @@ function CartFallback() {
       className="flex items-center gap-2 text-white hover:bg-white/10 px-4 py-2 rounded-full transition-colors">
       aria-label="Öppna kundvagn"
       <ShoppingCart size={24} />
-      <span className="hidden lg:inline text-sm font-medium">Kundvagn</span>
+      <span className="hidden lg:inline text-sm font-medium cursor-pointer">Kundvagn</span>
     </button>
   );
 }
