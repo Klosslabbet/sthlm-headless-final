@@ -19,10 +19,10 @@ export function CartToggle({cart}: CartToggleProps) {
 function CartFallback() {
   return (
     <button 
-      className="flex items-center gap-2 text-white hover:bg-white/10 px-4 py-2 rounded-full transition-colors">
+      className="flex items-center gap-2 text-white hover:bg-white/10 px-4 py-2 rounded-full transition-colors cursor-pointer">
       aria-label="Öppna kundvagn"
       <ShoppingCart size={24} />
-      <span className="hidden lg:inline text-sm font-medium cursor-pointer">Kundvagn</span>
+      <span className="hidden lg:inline text-sm font-medium">Kundvagn</span>
     </button>
   );
 }

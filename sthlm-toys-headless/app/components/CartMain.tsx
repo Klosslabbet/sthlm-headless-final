@@ -82,7 +82,7 @@ function CartEmpty({layout, popularCollections}: {layout: CartLayout; popularCol
 
   return (
     <div className="h-full flex flex-col">
-      <div className="flex flex-col items-center text-center pt-6 pb-4 px-4 flex-shrink-0 gap-1">
+      <div className="flex flex-col items-center text-center pt-6 pb-4 px-4 flex-shrink-0 gap-4">
         <ShoppingBag 
           size={48} 
           className="text-gray-300 mb-3 hidden min-[375px]:block" 
